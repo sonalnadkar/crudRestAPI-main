@@ -1,0 +1,25 @@
+Data for testing, pass following data to the body as json content
+
+//Read document sepecified by name 
+{
+    "name": "Avengers: Endgame"
+}
+
+//Create document
+{
+    "name":"Baby's Day Out",
+    "img":"https://m.media-amazon.com/images/M/MV5BMTM2NjkzNTAzN15BMl5BanBnXkFtZTYwOTcwNTE5._V1_.jpg",
+    "summary":"Three bumbling crooks pose as photographers to kidnap the son of a millionaire. But the baby turns out to be smarter than them, making it difficult for them to hold on to him."
+}
+
+//Update document specified by name, here image link is changed
+{
+    "name":"Baby's Day Out",
+    "img":"https://upload.wikimedia.org/wikipedia/en/3/35/Babys_day_out_poster.jpg",
+    "summary":"Three bumbling crooks pose as photographers to kidnap the son of a millionaire. But the baby turns out to be smarter than them, making it difficult for them to hold on to him."
+}
+
+//Update document specified by name
+{
+    "name":"Baby's Day Out"
+}
